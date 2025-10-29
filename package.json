@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Lightweight URL shortener scaffold using a simple MVC layout (Node.js + Express). This repo provides a minimal, well-organized starting point so you can replace the in-memory model with a persistent database later.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhan-f/url-shortener.git"
+  },
+  "keywords": [],
+  "author": "Subhan F.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subhan-f/url-shortener/issues"
+  },
+  "homepage": "https://github.com/subhan-f/url-shortener#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
